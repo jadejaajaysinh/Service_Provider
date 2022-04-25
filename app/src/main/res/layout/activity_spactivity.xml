@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SPActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sc1"
+                        android:layout_width="match_parent"
+                        android:layout_height="210dp"
+                        android:backgroundTint="#FAB0B0"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="110dp"
+                                android:layout_height="140dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:src="@drawable/ic_launcher_background"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Shop Name"
+                                        android:textStyle="bold"
+                                        android:textSize="20dp"
+                                        android:layout_marginTop="5dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Category"
+                                        android:drawableStart="@drawable/category"
+                                        android:padding="5dp"
+                                        android:drawablePadding="5dp"
+                                        android:textSize="16dp"
+                                        android:layout_marginTop="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Mobile No"
+                                        android:drawableStart="@drawable/phone"
+                                        android:padding="5dp"
+                                        android:drawablePadding="5dp"
+                                        android:textSize="16dp"
+                                        android:layout_marginTop="5dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Email"
+                                        android:drawableStart="@drawable/email_id"
+                                        android:padding="5dp"
+                                        android:drawablePadding="5dp"
+                                        android:textStyle="bold"
+                                        android:textSize="16dp"
+                                        android:layout_marginTop="5dp"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                           <TextView
+                               android:layout_marginTop="10dp"
+                               android:layout_marginRight="10dp"
+                               android:layout_marginLeft="10dp"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:text="Full Address"
+                               android:drawableStart="@drawable/address"
+                               android:padding="5dp"
+                               android:drawablePadding="5dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="210dp"
+                        android:backgroundTint="#FAB0B0"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="140dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/ic_launcher_background"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Shop Name"
+                                        android:textStyle="bold"
+                                        android:textSize="20dp"
+                                        android:layout_marginTop="5dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Category"
+                                        android:drawableStart="@drawable/category"
+                                        android:padding="5dp"
+                                        android:drawablePadding="5dp"
+                                        android:textSize="16dp"
+                                        android:layout_marginTop="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Mobile No"
+                                        android:drawableStart="@drawable/phone"
+                                        android:padding="5dp"
+                                        android:drawablePadding="5dp"
+                                        android:textSize="16dp"
+                                        android:layout_marginTop="5dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Email"
+                                        android:drawableStart="@drawable/email_id"
+                                        android:padding="5dp"
+                                        android:drawablePadding="5dp"
+                                        android:textStyle="bold"
+                                        android:textSize="16dp"
+                                        android:layout_marginTop="5dp"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Full Address"
+                                android:drawableStart="@drawable/address"
+                                android:padding="5dp"
+                                android:drawablePadding="5dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sc3"
+                        android:layout_width="match_parent"
+                        android:layout_height="210dp"
+                        android:backgroundTint="#FAB0B0"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="140dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/ic_launcher_background"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Shop Name"
+                                        android:textStyle="bold"
+                                        android:textSize="20dp"
+                                        android:layout_marginTop="5dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Category"
+                                        android:drawableStart="@drawable/category"
+                                        android:padding="5dp"
+                                        android:drawablePadding="5dp"
+                                        android:textSize="16dp"
+                                        android:layout_marginTop="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Mobile No"
+                                        android:drawableStart="@drawable/phone"
+                                        android:padding="5dp"
+                                        android:drawablePadding="5dp"
+                                        android:textSize="16dp"
+                                        android:layout_marginTop="5dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Email"
+                                        android:drawableStart="@drawable/email_id"
+                                        android:padding="5dp"
+                                        android:drawablePadding="5dp"
+                                        android:textStyle="bold"
+                                        android:textSize="16dp"
+                                        android:layout_marginTop="5dp"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Full Address"
+                                android:drawableStart="@drawable/address"
+                                android:padding="5dp"
+                                android:drawablePadding="5dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/sc4"
+                        android:layout_width="match_parent"
+                        android:layout_height="210dp"
+                        android:backgroundTint="#FAB0B0"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="110dp"
+                                    android:layout_height="140dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/ic_launcher_background"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Shop Name"
+                                        android:textStyle="bold"
+                                        android:textSize="20dp"
+                                        android:layout_marginTop="5dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Category"
+                                        android:drawableStart="@drawable/category"
+                                        android:padding="5dp"
+                                        android:drawablePadding="5dp"
+                                        android:textSize="16dp"
+                                        android:layout_marginTop="10dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Mobile No"
+                                        android:drawableStart="@drawable/phone"
+                                        android:padding="5dp"
+                                        android:drawablePadding="5dp"
+                                        android:textSize="16dp"
+                                        android:layout_marginTop="5dp"/>
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Email"
+                                        android:drawableStart="@drawable/email_id"
+                                        android:padding="5dp"
+                                        android:drawablePadding="5dp"
+                                        android:textStyle="bold"
+                                        android:textSize="16dp"
+                                        android:layout_marginTop="5dp"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Full Address"
+                                android:drawableStart="@drawable/address"
+                                android:padding="5dp"
+                                android:drawablePadding="5dp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
